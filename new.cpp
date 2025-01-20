@@ -11,8 +11,12 @@ void func(){
 
 int main(){
     vector<int> arr = {};
+    
     string s  = "";
+
     int a  = 0;
+
     func();
+
     return  0 ;
 }
