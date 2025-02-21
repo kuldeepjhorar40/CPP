@@ -3,13 +3,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
 void func(){
 
     return;
 }
 bool isValid(string s) {
-        int  i = 0 ,size = s.length()  ;
+        int  i = 0 ,size = s.length()  ,ii;
         if(size%2!=0){
             return  0 ;
         }
