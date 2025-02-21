@@ -10,6 +10,7 @@ void func(){
 bool isValid(string s) {
         int  i = 0 ,size = s.length()  ,ii;
         if(size%2!=0){
+            cout<<"o";
             return  0 ;
         }
         stack<char> stk;
